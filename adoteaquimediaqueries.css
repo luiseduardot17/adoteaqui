@@ -1,7 +1,6 @@
 /* TABLET */
 @media (max-width: 768px) {
     header{
-        background-color: rebeccapurple;
         padding: 20px;
         height: auto;
         display: flex;
@@ -11,18 +10,21 @@
         font-size: 30px;
     }      
 }
-/* MOBILE */
+/* MOBILE G*/
 @media (max-width: 425px) {
     header {
-        font-size: 15px;
-        background-color: cornflowerblue;
+        font-size: 5px;
         height: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
     h1 {
+        display: none;
+        font-size: 10px;
+    }
+    #foto {
         display: none;
     }
 }
